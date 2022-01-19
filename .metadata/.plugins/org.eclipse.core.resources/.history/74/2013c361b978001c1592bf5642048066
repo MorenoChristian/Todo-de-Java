@@ -1,0 +1,12 @@
+
+
+public class ArrayList {
+
+	public static void main(String[] args) {
+		
+		//DECLARACION DE UN ARRAY LIST DE STRINGS, PUEDE CONTENER CUALQUIER TIPO
+		ArrayList<String> arraylist = new ArrayList<String>();
+
+	}
+
+}

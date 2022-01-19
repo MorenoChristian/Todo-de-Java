@@ -1,0 +1,11 @@
+package Ej13;
+
+public class NoPerecedero extends Productos{
+	//ATRIBUTOS
+	private String tipo;
+	
+	//CONSTRUCTOR
+	public NoPerecedero(String nombre, double precio, String tipo) {
+		super(nombre, precio)
+	}
+}

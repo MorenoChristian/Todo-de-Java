@@ -1,0 +1,13 @@
+import java.util.ArrayList;
+
+public class Iterador {
+
+	public static void main(String[] args) {
+		// CREAMOS UN ARRAY LIST DE 10 ELEMENTOS
+		
+		ArrayList<String> arraylist = new Arraylist<String>();
+		
+		
+	}
+
+}

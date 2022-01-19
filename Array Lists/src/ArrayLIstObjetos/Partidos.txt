@@ -1,0 +1,16 @@
+Valencia::Betis::1::0
+Betis::Osasuna::1::0
+Atletico Madrid::Zaragoza::0::0
+Zaragoza::Valencia::2::2
+Mallorca::Deportivo::0::1
+Deportivo::Atletico Madrid::0::1
+Mallorca::Malaga::1::4
+Malaga::Atletico Madrid::1::4
+Boca::River::4::2
+Rosario Central::Independiente::1::1
+Atletico Madrid::Zaragoza::0::0
+Zaragoza::Valencia::2::2
+Alaves::Barcelona::0::0
+Getafe::Athletic::1::1
+Villarreal::Sevilla::1::1
+Betis::Zaragoza::0::0

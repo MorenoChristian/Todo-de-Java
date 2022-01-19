@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Dimensional_Array.java&apos; to &apos;Arrays_collections_maps/src&apos;&#x0D;&#x0A;- Original project: &apos;Arrays&apos;&#x0D;&#x0A;- Destination element: &apos;Arrays_collections_maps/src&apos;&#x0D;&#x0A;- Original element: &apos;Dimensional_Array.java&apos;" description="Copy compilation unit" destination="=Arrays_collections_maps/src" element1="/src&lt;{Dimensional_Array.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1638920350172" units="1" version="1.0"/>
+</session>

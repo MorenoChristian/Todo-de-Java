@@ -1,0 +1,21 @@
+package Ej12;
+
+public class Jugador {
+	//ATRIBUTOS
+	public int id = 0;
+	private String nombre;
+	private boolean vivo;
+	
+	//VARIABLE STATIC PARA AUMENTAR EL ID
+	private static int siguiente_id;
+	
+	//CONSTRUCTOR
+	public Jugador(String nombre) {
+		this.id = siguiente_id;
+		this.nombre = nombre;
+		this.vivo = true;
+		siguiente_id++;
+	}
+	
+
+}

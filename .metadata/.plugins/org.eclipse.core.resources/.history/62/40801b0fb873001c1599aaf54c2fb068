@@ -1,0 +1,19 @@
+package Ej12;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Revolver revo = new Revolver();
+		System.out.println(revo.toString());
+		System.out.println(revo.dispara());
+		revo.siguienteBala();
+		System.out.println(revo.dispara());
+		revo.siguienteBala();
+		System.out.println(revo.dispara());
+		revo.siguienteBala();
+		System.out.println(revo.dispara());
+		revo.siguienteBala();
+	}
+
+}

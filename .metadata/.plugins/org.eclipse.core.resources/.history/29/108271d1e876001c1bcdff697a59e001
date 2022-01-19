@@ -1,0 +1,11 @@
+package Ej13;
+
+public class Perecedero extends Producto{
+	//ATRIBUTO
+	private int dias_caducar;
+	
+	//CONSTRUCTOR
+	public Perecedero(String nombre, double precio, int dias_caducar) {
+		this(nombre, precio, dias_caducar);
+	}
+}

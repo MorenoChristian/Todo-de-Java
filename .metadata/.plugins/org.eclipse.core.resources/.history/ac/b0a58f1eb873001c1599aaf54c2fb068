@@ -1,0 +1,14 @@
+package Ej12;
+
+public class Jugador {
+	//ATRIBUTOS
+	private int id = 0;
+	private String nombre;
+	private boolean vivo;
+	
+	//CONSTRUCTOR
+	public Jugador(String nombre) {
+		this.nombre = nombre + id;
+		this.vivo = true;
+	}
+}

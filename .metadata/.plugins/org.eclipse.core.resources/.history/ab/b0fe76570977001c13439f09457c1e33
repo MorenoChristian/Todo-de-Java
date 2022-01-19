@@ -1,0 +1,8 @@
+
+public class NumerosAleatorios_Metodo {
+	
+	public int NumAleatorios(int a, int b) {
+		int numero = (int)(Math.random()*(a-b+1)+b);
+		return numero;
+	}
+}

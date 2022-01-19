@@ -1,0 +1,11 @@
+
+public class Ej8 {
+	public static void main(String[] args) {
+		
+		double numero = 37;
+		
+		double divi = numero%10;
+		
+		System.out.println(divi);
+	}
+}

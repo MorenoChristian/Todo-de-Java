@@ -1,0 +1,18 @@
+package Ej12;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Revolver revo = new Revolver();
+		System.out.println(revo.toString());
+		
+		
+		Jugador  jug = new Jugador("Christian");
+		Jugador  jug1 = new Jugador("Christian");
+
+		
+		
+	}
+
+}

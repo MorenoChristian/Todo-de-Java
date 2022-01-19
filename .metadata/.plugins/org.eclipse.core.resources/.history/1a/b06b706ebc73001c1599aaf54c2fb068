@@ -1,0 +1,40 @@
+package Ej12;
+
+public class Juego {
+	//ATRIBUTOS
+	private Jugador[] jugadores;
+	private Revolver revo;
+	
+	//CONSTRUCTOR
+	public Juego(Jugador[] jugadores, Revolver revo) {
+		this.jugadores = jugadores;
+		this.revo = revo;
+	}
+	
+	//METODO RONDA
+	public void ronda(Jugador[] jugadores, Revolver revo) {
+		
+		for(int i = 0; i<jugadores.length; i++) {
+			System.out.println("El jugador "+jugadores[i].toString()+", presiona lel gatillo");
+			
+			
+			if(jugadores[i].disparar(revo) == false) {
+				System.out.println("El jugador "+jugadores[i].toString()+", ha muerto");
+				System.out.println("El juego ha terminado");
+				exit();
+			}
+		}
+	}
+	
+	//METODO PARA TERMINAR EL JUEGO
+	private boolean finJuego(Jugador[] jugadores) {
+		boolean terminado = false;
+		for(int i = 0; i<jugadores.length; i++) {
+			if(jugadores[i].getVivo() == false) {
+				return terminado = true;
+			}else {
+				return terminado = false;
+			}
+		}
+	}
+}

@@ -1,0 +1,13 @@
+import javax.swing.JOptionPane;
+
+public class Ej6 {
+
+	public static void main(String[] args) {
+		
+		String frase = JOptionPane.showInputDialog("Ingrese una frase: ");
+		
+		System.out.println(frase.length());
+
+	}
+
+}

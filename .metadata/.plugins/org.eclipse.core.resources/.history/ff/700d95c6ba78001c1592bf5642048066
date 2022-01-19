@@ -1,0 +1,26 @@
+import java.util.ArrayList;
+
+public class Array_List {
+
+	public static void main(String[] args) {
+
+		//OPERACIONES BASICAS CON LOS ARRAY LIST
+		
+		//DECLARACION DE UN ARRAY LIST DE STRINGS, PUEDE CONTENER CUALQUIER TIPO
+		ArrayList<String> arraylist = new ArrayList<String>();
+		
+		//AGREGAMOS UN ELEMENTO AL ARRAYLIST
+		arraylist.add("Elemento 1");
+		
+		//AGREGAR UN ELEMENTO EN CIERTA POSICION
+		arraylist.add(1, "Elemento 2");
+		
+		//DEVUELVE EL NUMERO DE ELEMENTOS DEL ARRAYLIST
+		System.out.println("Numero de elementos en el arraylist: "+arraylist.size());
+		
+		//DEVUELVE EL ELEMENTO DE LA POSICION
+		System.out.println(arraylist.get(1));
+
+	}
+
+}

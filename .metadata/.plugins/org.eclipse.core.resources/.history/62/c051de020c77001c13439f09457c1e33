@@ -1,0 +1,13 @@
+import javax.swing.JOptionPane;
+
+public class Ej3 {
+
+	public static void main(String[] args) {
+		//ARRAY CON NUMEROS PRIMOS
+		int tamanio = Integer.parseInt(JOptionPane.showInputDialog("Tamanio del array: "));
+		
+		int[] numeros = new int[tamanio];
+
+	}
+
+}

@@ -1,0 +1,24 @@
+package Ej12;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Revolver revo = new Revolver();
+		System.out.println(revo.toString());
+		
+		
+		Jugador[] jugadores = new Jugador[6];
+		
+		jugadores[0] = new Jugador("Christian");
+		jugadores[0] = new Jugador("Gonzalo");
+		jugadores[0] = new Jugador("Martin");
+		jugadores[0] = new Jugador("Vanesa");
+		jugadores[0] = new Jugador("Carmen");
+		jugadores[0] = new Jugador("Brusilda");
+
+		
+		
+	}
+
+}

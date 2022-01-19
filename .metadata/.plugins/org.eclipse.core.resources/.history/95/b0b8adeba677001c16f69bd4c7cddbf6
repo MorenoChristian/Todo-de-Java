@@ -1,0 +1,34 @@
+import javax.swing.JOptionPane;
+
+public class Ej8 {
+	public static void main(String[] args) {
+		
+		int tamanio = Integer.parseInt(JOptionPane.showInputDialog("Tamaño del array: "));
+		
+		int[] numeros = new int[tamanio];
+		int[] buscados = buscar(numeros, 5);
+		
+		rellenar(numeros);
+		
+		int buscar = Integer.parseInt(JOptionPane.showInputDialog("Qué numero desea buscar?: "));
+	}
+	
+	public static void rellenar(int[] array) {
+		for(int i = 0; i<array.length; i++) {
+			int numero = NumerosAleatorios_Metodo.NumAleatorios(1, 101);
+			array[i] = numero;
+		}
+	}
+	
+	public static int[] buscar(int[] array ,int buscar) {
+		int j = 0;
+		int[] array2 = new int[array.length];
+		for(int i = 0; i<array.length; i++) {
+			if(array[i]%10 == buscar) {
+				array2[j] = array[i];
+				j++;
+			}
+		}
+		return array2;
+	}
+}
