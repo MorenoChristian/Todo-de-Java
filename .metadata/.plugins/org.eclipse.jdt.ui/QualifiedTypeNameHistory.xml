@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.lang.System"/>
-    <fullyQualifiedTypeName name="java.lang.Math"/>
     <fullyQualifiedTypeName name="javax.swing.plaf.OptionPaneUI"/>
     <fullyQualifiedTypeName name="java.util.concurrent.ArrayBlockingQueue"/>
     <fullyQualifiedTypeName name="java.util.GregorianCalendar"/>
@@ -12,8 +10,6 @@
     <fullyQualifiedTypeName name="OOP.putito"/>
     <fullyQualifiedTypeName name="OOP.Leader"/>
     <fullyQualifiedTypeName name="java.util.List"/>
-    <fullyQualifiedTypeName name="java.util.HashSet"/>
-    <fullyQualifiedTypeName name="java.util.Set"/>
     <fullyQualifiedTypeName name="javax.print.attribute.standard.JobHoldUntil"/>
     <fullyQualifiedTypeName name="exeptions_1.Lamine_with_image"/>
     <fullyQualifiedTypeName name="ClassesandObjects.Bicycle"/>
@@ -44,9 +40,24 @@
     <fullyQualifiedTypeName name="NumerosAleatorios_Metodo"/>
     <fullyQualifiedTypeName name="javax.swing.text.html.HTMLDocument.Iterator"/>
     <fullyQualifiedTypeName name="ArrayLIstObjetos.PartidoFutbol"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.io.FileReader"/>
-    <fullyQualifiedTypeName name="java.util.Iterator"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.io.File"/>
+    <fullyQualifiedTypeName name="HilosconParametros.Proceso"/>
+    <fullyQualifiedTypeName name="ThreadStates.HiloProceso"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="Banco_Ejemplo.EjecucionTransferencias"/>
+    <fullyQualifiedTypeName name="java.lang.InterruptedException"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.locks.Lock"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.locks.Condition"/>
+    <fullyQualifiedTypeName name="java.util.HashSet"/>
+    <fullyQualifiedTypeName name="java.util.Set"/>
+    <fullyQualifiedTypeName name="java.util.Comparator"/>
+    <fullyQualifiedTypeName name="java.util.LinkedList"/>
+    <fullyQualifiedTypeName name="java.util.ListIterator"/>
+    <fullyQualifiedTypeName name="java.util.TreeSet"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="java.util.Map"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.Iterator"/>
 </qualifiedTypeNameHistroy>
